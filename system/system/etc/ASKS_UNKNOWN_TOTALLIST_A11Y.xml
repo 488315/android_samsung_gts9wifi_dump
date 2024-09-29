@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<VERSION value="20240730"/>
+<LIST>
+    <!-- DEV List START -->
+    <CERT value="a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc">
+        <package name="ALL" policy="block" execute="allow" applyPolicy="ALL" reported="ALL" SA="4002">ALL</package>
+        <!-- DEV_A40 -->
+    </CERT>
+    <CERT value="c8a2e9bccf597c2fb6dc66bee293fc13f2fc47ec77bc6b2b0d52c11f51192ab8">
+        <package name="ALL" policy="block" execute="allow" applyPolicy="ALL" reported="ALL" SA="4002">ALL</package>
+        <!-- DEV_C8A -->
+    </CERT>
+    <CERT value="8ad127abae8285b582ea36745f220ab8fe397ffb3b068df19ca22d122c7b3b86">
+        <package name="ALL" policy="block" execute="allow" applyPolicy="ALL" reported="ALL" SA="4002">ALL</package>
+        <!-- DEV_8AD -->
+    </CERT>
+    <CERT value="ce7b2b47ae2b7552c8f92cc29124279883041fb623a5f194a82c9bf15d492aa0">
+        <package name="ALL" policy="block" execute="allow" applyPolicy="ALL" reported="ALL" SA="4002">ALL</package>
+        <!-- DEV_CE7 -->
+    </CERT>
+    <CERT value="28bbfe4a7b97e74681dc55c2fbb6ccb8d6c74963733f6af6ae74d8c3a6e879fd">
+        <package name="ALL" policy="block" execute="allow" applyPolicy="ALL" reported="ALL" SA="4002">ALL</package>
+        <!-- DEV_28B -->
+    </CERT>
+    <CERT value="4d69278cffdb6714d5fa51cfecc7adb1db20ab8efe43f7da38ccbe6d02823357">
+        <package name="ALL" policy="block" execute="allow" applyPolicy="ALL" reported="ALL" SA="4002">ALL</package>
+        <!-- DEV_4D6 -->
+    </CERT>
+    <CERT value="465983f7791f2abeb43ea2cbdc7f21a8260b72bc08a55c839fc1a43bc741a81e">
+        <package name="ALL" policy="block" execute="allow" applyPolicy="ALL" reported="ALL" SA="4002">ALL</package>
+        <!-- DEV_465 -->
+    </CERT>
+    <CERT value="e1dbadce60dc080d15b58a014b0dcf9400e24de23fa00b287a5a982bfebda2ee">
+        <package name="ALL" policy="block" execute="allow" applyPolicy="ALL" reported="ALL" SA="4002">ALL</package>
+        <!-- DEV_E1D -->
+    </CERT>
+    <CERT value="1e08a903aef9c3a721510b64ec764d01d3d094eb954161b62544ea8f187b5953">
+        <package name="ALL" policy="block" execute="allow" applyPolicy="ALL" reported="ALL" SA="4002">ALL</package>
+        <!-- DEV_1E0 -->
+    </CERT>
+    <!-- DEV List END -->
+    <!-- DEFAULT -->
+    <!-- termux 240208 -->
+    <CERT value="b6da01480eefd5fbf2cd3771b8d1021ec791304bdd6c4bf41d3faabad48ee5e1">
+        <package name="ALL" policy="warning1" SA="9002" execute="allow">ALL</package>
+        <package name="e375c264809a2ca0f535a0fed665514d9c602fc21aa80f2b5dfe9e579cb5db9f" policy="block" SA="9002">ALL</package>
+        <package name="e3216ef410bc42fb5ee16a85f4d590ee4d965ce76b17e1258ad06bcfc7232f89" policy="block" SA="9002">ALL</package>
+        <package name="64501e3f5237384520516b5186ee490e759386fd50dc1bbef23b75908aebbc82" policy="block" SA="9002">ALL</package>
+    </CERT>
+    <CERT value="ALL">
+        <package name="ALL" policy="warning" SA="4000">ALL</package>
+    </CERT>
+    <!-- DEFAULT END -->
+    <!-- PEM LIST START -->
+    <PEM_1 value="ALL" MIN="23" MAX="100" SA="4210" applyPolicy="ALL" reported="ALL">
+        <pem name="android.permission.PROCESS_OUTGOING_CALLS" policy="block"></pem>
+        <pem name="android.permission.BIND_CALL_REDIRECTION_SERVICE" policy="block"></pem>
+        <pem name="android.permission.BIND_INCALL_SERVICE" policy="block"></pem>
+        <pem name="android.permission.BIND_TELECOM_CONNECTION_SERVICE" policy="block"></pem>
+        <pem name="android.permission.ANSWER_PHONE_CALLS" policy="block"></pem>
+        <pem name="android.permission.CALL_PHONE" policy="block"></pem>
+    </PEM_1>
+    <PEM_2 value="a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc" MIN="0" MAX="100" SA="4225" applyPolicy="ALL" reported="ALL">
+        <pem name="android.permission.PROCESS_OUTGOING_CALLS" policy="block"></pem>
+        <pem name="android.permission.BIND_CALL_REDIRECTION_SERVICE" policy="block"></pem>
+        <pem name="android.permission.BIND_INCALL_SERVICE" policy="block"></pem>
+        <pem name="android.permission.BIND_TELECOM_CONNECTION_SERVICE" policy="block"></pem>
+        <pem name="android.permission.ANSWER_PHONE_CALLS" policy="block"></pem>
+        <pem name="android.permission.CALL_PHONE" policy="block"></pem>
+    </PEM_2>
+    <PEM_2 value="c8a2e9bccf597c2fb6dc66bee293fc13f2fc47ec77bc6b2b0d52c11f51192ab8" MIN="0" MAX="100" SA="4225" applyPolicy="ALL" reported="ALL">
+        <pem name="android.permission.PROCESS_OUTGOING_CALLS" policy="block"></pem>
+        <pem name="android.permission.BIND_CALL_REDIRECTION_SERVICE" policy="block"></pem>
+        <pem name="android.permission.BIND_INCALL_SERVICE" policy="block"></pem>
+        <pem name="android.permission.BIND_TELECOM_CONNECTION_SERVICE" policy="block"></pem>
+        <pem name="android.permission.ANSWER_PHONE_CALLS" policy="block"></pem>
+        <pem name="android.permission.CALL_PHONE" policy="block"></pem>
+    </PEM_2>
+    <PEM_2 value="8ad127abae8285b582ea36745f220ab8fe397ffb3b068df19ca22d122c7b3b86" MIN="0" MAX="100" SA="4225" applyPolicy="ALL" reported="ALL">
+        <pem name="android.permission.PROCESS_OUTGOING_CALLS" policy="block"></pem>
+        <pem name="android.permission.BIND_CALL_REDIRECTION_SERVICE" policy="block"></pem>
+        <pem name="android.permission.BIND_INCALL_SERVICE" policy="block"></pem>
+        <pem name="android.permission.BIND_TELECOM_CONNECTION_SERVICE" policy="block"></pem>
+        <pem name="android.permission.ANSWER_PHONE_CALLS" policy="block"></pem>
+        <pem name="android.permission.CALL_PHONE" policy="block"></pem>
+    </PEM_2>
+    <PEM_2 value="ce7b2b47ae2b7552c8f92cc29124279883041fb623a5f194a82c9bf15d492aa0" MIN="0" MAX="100" SA="4225" applyPolicy="ALL" reported="ALL">
+        <pem name="android.permission.PROCESS_OUTGOING_CALLS" policy="block"></pem>
+        <pem name="android.permission.BIND_CALL_REDIRECTION_SERVICE" policy="block"></pem>
+        <pem name="android.permission.BIND_INCALL_SERVICE" policy="block"></pem>
+        <pem name="android.permission.BIND_TELECOM_CONNECTION_SERVICE" policy="block"></pem>
+        <pem name="android.permission.ANSWER_PHONE_CALLS" policy="block"></pem>
+        <pem name="android.permission.CALL_PHONE" policy="block"></pem>
+    </PEM_2>
+    <PEM_2 value="28bbfe4a7b97e74681dc55c2fbb6ccb8d6c74963733f6af6ae74d8c3a6e879fd" MIN="0" MAX="100" SA="4225" applyPolicy="ALL" reported="ALL">
+        <pem name="android.permission.PROCESS_OUTGOING_CALLS" policy="block"></pem>
+        <pem name="android.permission.BIND_CALL_REDIRECTION_SERVICE" policy="block"></pem>
+        <pem name="android.permission.BIND_INCALL_SERVICE" policy="block"></pem>
+        <pem name="android.permission.BIND_TELECOM_CONNECTION_SERVICE" policy="block"></pem>
+        <pem name="android.permission.ANSWER_PHONE_CALLS" policy="block"></pem>
+        <pem name="android.permission.CALL_PHONE" policy="block"></pem>
+    </PEM_2>
+    <PEM_2 value="4d69278cffdb6714d5fa51cfecc7adb1db20ab8efe43f7da38ccbe6d02823357" MIN="0" MAX="100" SA="4225" applyPolicy="ALL" reported="ALL">
+        <pem name="android.permission.PROCESS_OUTGOING_CALLS" policy="block"></pem>
+        <pem name="android.permission.BIND_CALL_REDIRECTION_SERVICE" policy="block"></pem>
+        <pem name="android.permission.BIND_INCALL_SERVICE" policy="block"></pem>
+        <pem name="android.permission.BIND_TELECOM_CONNECTION_SERVICE" policy="block"></pem>
+        <pem name="android.permission.ANSWER_PHONE_CALLS" policy="block"></pem>
+        <pem name="android.permission.CALL_PHONE" policy="block"></pem>
+    </PEM_2>
+    <PEM_2 value="465983f7791f2abeb43ea2cbdc7f21a8260b72bc08a55c839fc1a43bc741a81e" MIN="0" MAX="100" SA="4225" applyPolicy="ALL" reported="ALL">
+        <pem name="android.permission.PROCESS_OUTGOING_CALLS" policy="block"></pem>
+        <pem name="android.permission.BIND_CALL_REDIRECTION_SERVICE" policy="block"></pem>
+        <pem name="android.permission.BIND_INCALL_SERVICE" policy="block"></pem>
+        <pem name="android.permission.BIND_TELECOM_CONNECTION_SERVICE" policy="block"></pem>
+        <pem name="android.permission.ANSWER_PHONE_CALLS" policy="block"></pem>
+        <pem name="android.permission.CALL_PHONE" policy="block"></pem>
+    </PEM_2>
+    <PEM_2 value="e1dbadce60dc080d15b58a014b0dcf9400e24de23fa00b287a5a982bfebda2ee" MIN="0" MAX="100" SA="4225" applyPolicy="ALL" reported="ALL">
+        <pem name="android.permission.PROCESS_OUTGOING_CALLS" policy="block"></pem>
+        <pem name="android.permission.BIND_CALL_REDIRECTION_SERVICE" policy="block"></pem>
+        <pem name="android.permission.BIND_INCALL_SERVICE" policy="block"></pem>
+        <pem name="android.permission.BIND_TELECOM_CONNECTION_SERVICE" policy="block"></pem>
+        <pem name="android.permission.ANSWER_PHONE_CALLS" policy="block"></pem>
+        <pem name="android.permission.CALL_PHONE" policy="block"></pem>
+    </PEM_2>
+    <PEM_2 value="1e08a903aef9c3a721510b64ec764d01d3d094eb954161b62544ea8f187b5953" MIN="0" MAX="100" SA="4225" applyPolicy="ALL" reported="ALL">
+        <pem name="android.permission.PROCESS_OUTGOING_CALLS" policy="block"></pem>
+        <pem name="android.permission.BIND_CALL_REDIRECTION_SERVICE" policy="block"></pem>
+        <pem name="android.permission.BIND_INCALL_SERVICE" policy="block"></pem>
+        <pem name="android.permission.BIND_TELECOM_CONNECTION_SERVICE" policy="block"></pem>
+        <pem name="android.permission.ANSWER_PHONE_CALLS" policy="block"></pem>
+        <pem name="android.permission.CALL_PHONE" policy="block"></pem>
+    </PEM_2>
+    <!--<PEM_3RDPARTY value="ALL" MIN="0" MAX="100" SA="7215" applyPolicy="nonURL" reported="ALL">
+        <pem name="android.permission.PROCESS_OUTGOING_CALLS" policy="warning1"></pem>
+        <pem name="android.permission.BIND_CALL_REDIRECTION_SERVICE" policy="warning1"></pem>
+        <pem name="android.permission.BIND_INCALL_SERVICE" policy="warning1"></pem>
+        <pem name="android.permission.BIND_TELECOM_CONNECTION_SERVICE" policy="warning1"></pem>
+        <pem name="android.permission.ANSWER_PHONE_CALLS" policy="warning1"></pem>
+        <pem name="android.permission.CALL_PHONE" policy="warning1"></pem>
+    </PEM_3RDPARTY>-->
+    <PEM_3RDPARTY value="ALL" MIN="0" MAX="100" SA="9017" applyPolicy="nonURL" reported="ALL">
+        <pem name="android.permission.RECEIVE_SMS" policy="warning"></pem>
+    </PEM_3RDPARTY>
+    <PEM_3RDPARTY value="ALL" MIN="0" MAX="100" SA="9015" applyPolicy="nonURL" reported="ALL">
+        <pem name="android.permission.READ_CONTACTS" policy="warning1"></pem>
+    </PEM_3RDPARTY>
+    <PEM_3RDPARTY value="a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc" MIN="0" MAX="100" SA="7225" applyPolicy="nonURL" reported="ALL">
+        <pem name="android.permission.PROCESS_OUTGOING_CALLS" policy="block"></pem>
+        <pem name="android.permission.BIND_CALL_REDIRECTION_SERVICE" policy="block"></pem>
+        <pem name="android.permission.BIND_INCALL_SERVICE" policy="block"></pem>
+        <pem name="android.permission.BIND_TELECOM_CONNECTION_SERVICE" policy="block"></pem>
+        <pem name="android.permission.ANSWER_PHONE_CALLS" policy="block"></pem>
+        <pem name="android.permission.CALL_PHONE" policy="block"></pem>
+    </PEM_3RDPARTY>
+    <PEM_3RDPARTY value="c8a2e9bccf597c2fb6dc66bee293fc13f2fc47ec77bc6b2b0d52c11f51192ab8" MIN="0" MAX="100" SA="7225" applyPolicy="nonURL" reported="ALL">
+        <pem name="android.permission.PROCESS_OUTGOING_CALLS" policy="block"></pem>
+        <pem name="android.permission.BIND_CALL_REDIRECTION_SERVICE" policy="block"></pem>
+        <pem name="android.permission.BIND_INCALL_SERVICE" policy="block"></pem>
+        <pem name="android.permission.BIND_TELECOM_CONNECTION_SERVICE" policy="block"></pem>
+        <pem name="android.permission.ANSWER_PHONE_CALLS" policy="block"></pem>
+        <pem name="android.permission.CALL_PHONE" policy="block"></pem>
+    </PEM_3RDPARTY>
+    <PEM_3RDPARTY value="8ad127abae8285b582ea36745f220ab8fe397ffb3b068df19ca22d122c7b3b86" MIN="0" MAX="100" SA="7225" applyPolicy="nonURL" reported="ALL">
+        <pem name="android.permission.PROCESS_OUTGOING_CALLS" policy="block"></pem>
+        <pem name="android.permission.BIND_CALL_REDIRECTION_SERVICE" policy="block"></pem>
+        <pem name="android.permission.BIND_INCALL_SERVICE" policy="block"></pem>
+        <pem name="android.permission.BIND_TELECOM_CONNECTION_SERVICE" policy="block"></pem>
+        <pem name="android.permission.ANSWER_PHONE_CALLS" policy="block"></pem>
+        <pem name="android.permission.CALL_PHONE" policy="block"></pem>
+    </PEM_3RDPARTY>
+    <PEM_3RDPARTY value="ce7b2b47ae2b7552c8f92cc29124279883041fb623a5f194a82c9bf15d492aa0" MIN="0" MAX="100" SA="7225" applyPolicy="nonURL" reported="ALL">
+        <pem name="android.permission.PROCESS_OUTGOING_CALLS" policy="block"></pem>
+        <pem name="android.permission.BIND_CALL_REDIRECTION_SERVICE" policy="block"></pem>
+        <pem name="android.permission.BIND_INCALL_SERVICE" policy="block"></pem>
+        <pem name="android.permission.BIND_TELECOM_CONNECTION_SERVICE" policy="block"></pem>
+        <pem name="android.permission.ANSWER_PHONE_CALLS" policy="block"></pem>
+        <pem name="android.permission.CALL_PHONE" policy="block"></pem>
+    </PEM_3RDPARTY>
+    <PEM_3RDPARTY value="28bbfe4a7b97e74681dc55c2fbb6ccb8d6c74963733f6af6ae74d8c3a6e879fd" MIN="0" MAX="100" SA="7225" applyPolicy="nonURL" reported="ALL">
+        <pem name="android.permission.PROCESS_OUTGOING_CALLS" policy="block"></pem>
+        <pem name="android.permission.BIND_CALL_REDIRECTION_SERVICE" policy="block"></pem>
+        <pem name="android.permission.BIND_INCALL_SERVICE" policy="block"></pem>
+        <pem name="android.permission.BIND_TELECOM_CONNECTION_SERVICE" policy="block"></pem>
+        <pem name="android.permission.ANSWER_PHONE_CALLS" policy="block"></pem>
+        <pem name="android.permission.CALL_PHONE" policy="block"></pem>
+    </PEM_3RDPARTY>
+    <PEM_3RDPARTY value="4d69278cffdb6714d5fa51cfecc7adb1db20ab8efe43f7da38ccbe6d02823357" MIN="0" MAX="100" SA="7225" applyPolicy="nonURL" reported="ALL">
+        <pem name="android.permission.PROCESS_OUTGOING_CALLS" policy="block"></pem>
+        <pem name="android.permission.BIND_CALL_REDIRECTION_SERVICE" policy="block"></pem>
+        <pem name="android.permission.BIND_INCALL_SERVICE" policy="block"></pem>
+        <pem name="android.permission.BIND_TELECOM_CONNECTION_SERVICE" policy="block"></pem>
+        <pem name="android.permission.ANSWER_PHONE_CALLS" policy="block"></pem>
+        <pem name="android.permission.CALL_PHONE" policy="block"></pem>
+    </PEM_3RDPARTY>
+    <PEM_3RDPARTY value="465983f7791f2abeb43ea2cbdc7f21a8260b72bc08a55c839fc1a43bc741a81e" MIN="0" MAX="100" SA="7225" applyPolicy="nonURL" reported="ALL">
+        <pem name="android.permission.PROCESS_OUTGOING_CALLS" policy="block"></pem>
+        <pem name="android.permission.BIND_CALL_REDIRECTION_SERVICE" policy="block"></pem>
+        <pem name="android.permission.BIND_INCALL_SERVICE" policy="block"></pem>
+        <pem name="android.permission.BIND_TELECOM_CONNECTION_SERVICE" policy="block"></pem>
+        <pem name="android.permission.ANSWER_PHONE_CALLS" policy="block"></pem>
+        <pem name="android.permission.CALL_PHONE" policy="block"></pem>
+    </PEM_3RDPARTY>
+    <PEM_3RDPARTY value="e1dbadce60dc080d15b58a014b0dcf9400e24de23fa00b287a5a982bfebda2ee" MIN="0" MAX="100" SA="7225" applyPolicy="nonURL" reported="ALL">
+        <pem name="android.permission.PROCESS_OUTGOING_CALLS" policy="block"></pem>
+        <pem name="android.permission.BIND_CALL_REDIRECTION_SERVICE" policy="block"></pem>
+        <pem name="android.permission.BIND_INCALL_SERVICE" policy="block"></pem>
+        <pem name="android.permission.BIND_TELECOM_CONNECTION_SERVICE" policy="block"></pem>
+        <pem name="android.permission.ANSWER_PHONE_CALLS" policy="block"></pem>
+        <pem name="android.permission.CALL_PHONE" policy="block"></pem>
+    </PEM_3RDPARTY>
+    <PEM_3RDPARTY value="1e08a903aef9c3a721510b64ec764d01d3d094eb954161b62544ea8f187b5953" MIN="0" MAX="100" SA="7225" applyPolicy="nonURL" reported="ALL">
+        <pem name="android.permission.PROCESS_OUTGOING_CALLS" policy="block"></pem>
+        <pem name="android.permission.BIND_CALL_REDIRECTION_SERVICE" policy="block"></pem>
+        <pem name="android.permission.BIND_INCALL_SERVICE" policy="block"></pem>
+        <pem name="android.permission.BIND_TELECOM_CONNECTION_SERVICE" policy="block"></pem>
+        <pem name="android.permission.ANSWER_PHONE_CALLS" policy="block"></pem>
+        <pem name="android.permission.CALL_PHONE" policy="block"></pem>
+    </PEM_3RDPARTY>
+    <!-- Advanced BLOCK For pilot models  --> 
+    <BLOCK_SMS_1 value="ALL" MIN="23" MAX="100" SA="9019" applyPolicy="ALL" reported="ALL" policy="block" applyOption="AND">
+        <pem name="android.permission.READ_CONTACTS" policy="block"></pem>
+        <pem name="android.permission.RECEIVE_SMS" policy="block"></pem>
+        <pem name="android.permission.REQUEST_DELETE_PACKAGES" policy="block"></pem>
+        <pem name="android.permission.FOREGROUND_SERVICE" policy="block"></pem>
+    </BLOCK_SMS_1>
+    <BLOCK_SMS_2 value="ALL" MIN="0" MAX="100" SA="9039" applyPolicy="ALL" reported="ALL" policy="warning" applyOption="AND">
+        <pem name="android.permission.READ_SMS" policy="warning"></pem>
+        <pem name="android.permission.READ_CONTACTS" policy="warning"></pem>
+        <pem name="android.permission.FOREGROUND_SERVICE" policy="warning"></pem>
+        <pem name="android.permission.REQUEST_DELETE_PACKAGES" policy="warning"></pem>
+    </BLOCK_SMS_2>
+    <BLOCK_SMS_3 value="ALL" MIN="0" MAX="100" SA="9038" applyPolicy="ALL" reported="ALL">
+        <pem name="android.permission.RECEIVE_SMS" policy="block"></pem>
+    </BLOCK_SMS_3>
+    <BLOCK_INSTALLER_2 value="ALL" MIN="23" MAX="100" SA="9040" applyPolicy="ALL" reported="ALL" policy="block" applyOption="AND">
+        <pem name="android.permission.WRITE_EXTERNAL_STORAGE" policy="block"></pem>
+        <pem name="android.permission.READ_EXTERNAL_STORAGE" policy="block"></pem>
+        <pem name="android.permission.REQUEST_INSTALL_PACKAGES" policy="block"></pem>
+        <pem name="android.permission.MANAGE_EXTERNAL_STORAGE" policy="block"></pem>
+        <pem name="android.permission.INTERNET" policy="block"></pem>
+    </BLOCK_INSTALLER_2>
+    <BLOCK_INSTALLER_3 value="ALL" MIN="23" MAX="100" SA="9041" applyPolicy="ALL" reported="ALL" policy="block" applyOption="AND">
+        <pem name="android.permission.INTERNET" policy="block"></pem>
+        <pem name="android.permission.RECEIVE_BOOT_COMPLETED" policy="block"></pem>
+        <pem name="android.permission.REQUEST_INSTALL_PACKAGES" policy="block"></pem>
+        <pem name="android.permission.INSTALL_PACKAGES" policy="block"></pem>
+        <pem name="android.permission.FOREGROUND_SERVICE" policy="block"></pem>
+        <pem name="android.permission.REQUEST_DELETE_PACKAGES" policy="block"></pem>
+        <pem name="android.permission.QUERY_ALL_PACKAGES" policy="block"></pem>
+    </BLOCK_INSTALLER_3>
+    <BLOCK_CALL_1 value="ALL" MIN="23" MAX="100" SA="9028" applyPolicy="ALL" reported="ALL" policy="block" applyOption="AND">
+        <pem name="android.permission.ANSWER_PHONE_CALLS" policy="block"></pem>
+        <pem name="android.permission.CALL_PHONE" policy="block"></pem>
+        <pem name="android.permission.PROCESS_OUTGOING_CALLS" policy="block"></pem>
+        <pem name="android.permission.READ_CALL_LOG" policy="block"></pem>
+        <pem name="android.permission.READ_CONTACTS" policy="block"></pem>
+        <pem name="android.permission.REQUEST_DELETE_PACKAGES" policy="block"></pem>
+        <pem name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" policy="block"></pem>
+        <pem name="android.permission.FOREGROUND_SERVICE" policy="block"></pem>
+    </BLOCK_CALL_1>
+    <BLOCK_MALWARE_1 value="ALL" MIN="23" MAX="100" SA="9036" applyPolicy="ALL" reported="ALL" policy="block" applyOption="AND">
+        <pem name="android.permission.INTERNET" policy="block"></pem>
+        <pem name="android.permission.READ_CONTACTS" policy="block"></pem>
+        <pem name="android.permission.READ_PHONE_STATE" policy="block"></pem>
+        <pem name="android.permission.READ_PHONE_NUMBERS" policy="block"></pem>
+        <pem name="android.permission.READ_EXTERNAL_STORAGE" policy="block"></pem>
+        <pem name="android.permission.READ_MEDIA_IMAGES" policy="block"></pem>
+        <pem name="android.permission.READ_MEDIA_AUDIO" policy="block"></pem>
+        <pem name="android.permission.READ_MEDIA_VIDEO" policy="block"></pem>
+        <pem name="android.permission.READ_SMS" policy="block"></pem>
+        <pem name="android.permission.ACCESS_NETWORK_STATE" policy="block"></pem>
+    </BLOCK_MALWARE_1>
+    <BLOCK_MALWARE_2 value="ALL" MIN="23" MAX="100" SA="9042" applyPolicy="ALL" reported="ALL" policy="block" applyOption="AND">
+        <pem name="android.permission.ACCESS_BACKGROUND_LOCATION" policy="block"></pem>
+        <pem name="android.permission.ACCESS_NETWORK_STATE" policy="block"></pem>
+        <pem name="android.permission.ACCESS_WIFI_STATE" policy="block"></pem>
+        <pem name="android.permission.ACCESS_FINE_LOCATION" policy="block"></pem>
+        <pem name="android.permission.ACCESS_COARSE_LOCATION" policy="block"></pem>
+        <pem name="android.permission.ACTION_MANAGE_OVERLAY_PERMISSION" policy="block"></pem>
+        <pem name="android.permission.ANSWER_PHONE_CALLS" policy="block"></pem>
+        <pem name="android.permission.BLUETOOTH" policy="block"></pem>
+        <pem name="android.permission.BLUETOOTH_ADMIN" policy="block"></pem>
+        <pem name="android.permission.CALL_PHONE" policy="block"></pem>
+        <pem name="android.permission.CAMERA" policy="block"></pem>
+        <pem name="android.permission.CHANGE_WIFI_STATE" policy="block"></pem>
+        <pem name="android.permission.DISABLE_KEYGUARD" policy="block"></pem>
+        <pem name="android.permission.FOREGROUND_SERVICE" policy="block"></pem>
+        <pem name="android.permission.INTERNET" policy="block"></pem>
+        <pem name="android.permission.MODIFY_AUDIO_SETTINGS" policy="block"></pem>
+        <pem name="android.permission.PROCESS_OUTGOING_CALLS" policy="block"></pem>
+        <pem name="android.permission.SYSTEM_ALERT_WINDOW" policy="block"></pem>
+        <pem name="android.permission.READ_CALL_LOG" policy="block"></pem>
+        <pem name="android.permission.READ_CONTACTS" policy="block"></pem>
+        <pem name="android.permission.READ_EXTERNAL_STORAGE" policy="block"></pem>
+        <pem name="android.permission.READ_PHONE_NUMBERS" policy="block"></pem>
+        <pem name="android.permission.READ_PHONE_STATE" policy="block"></pem>
+        <pem name="android.permission.READ_SMS" policy="block"></pem>
+        <pem name="android.permission.RECEIVE_BOOT_COMPLETED" policy="block"></pem>
+        <pem name="android.permission.RECEIVE_LAUNCH_BROADCASTS" policy="block"></pem>
+        <pem name="android.permission.RECORD_AUDIO" policy="block"></pem>
+        <pem name="android.permission.REQUEST_DELETE_PACKAGES" policy="block"></pem>
+        <pem name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" policy="block"></pem>
+        <pem name="android.permission.WAKE_LOCK" policy="block"></pem>
+        <pem name="android.permission.WRITE_CALL_LOG" policy="block"></pem>
+        <pem name="android.permission.WRITE_CONTACTS" policy="block"></pem>
+        <pem name="android.permission.WRITE_EXTERNAL_STORAGE" policy="block"></pem>
+        <pem name="android.permission.BLUETOOTH_CONNECT" policy="block"></pem>
+        <pem name="android.permission.VIBRATE" policy="block"></pem>
+    </BLOCK_MALWARE_2>
+    <BLOCK_MALWARE_3 value="ALL" MIN="23" MAX="100" SA="9025" applyPolicy="ALL" reported="ALL" policy="block" applyOption="AND">
+        <pem name="android.permission.MODIFY_AUDIO_SETTINGS" policy="block"></pem>
+        <pem name="android.permission.CHANGE_NETWORK_STATE" policy="block"></pem>
+        <pem name="android.permission.FOREGROUND_SERVICE" policy="block"></pem>
+        <pem name="android.permission.RECEIVE_BOOT_COMPLETED" policy="block"></pem>
+        <pem name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" policy="block"></pem>
+        <pem name="android.permission.BLUETOOTH" policy="block"></pem>
+        <pem name="android.permission.GET_TASKS" policy="block"></pem>
+        <pem name="android.permission.INTERNET" policy="block"></pem>
+        <pem name="android.permission.REORDER_TASKS" policy="block"></pem>
+        <pem name="android.permission.BLUETOOTH_ADMIN" policy="block"></pem>
+        <pem name="android.permission.GET_PACKAGE_SIZE" policy="block"></pem>
+        <pem name="android.permission.CHANGE_WIFI_STATE" policy="block"></pem>
+        <pem name="android.permission.ACCESS_NETWORK_STATE" policy="block"></pem>
+        <pem name="android.permission.DISABLE_KEYGUARD" policy="block"></pem>
+        <pem name="android.permission.REQUEST_DELETE_PACKAGES" policy="block"></pem>
+        <pem name="android.permission.ACCESS_WIFI_STATE" policy="block"></pem>
+        <pem name="android.permission.QUERY_ALL_PACKAGES" policy="block"></pem>
+        <pem name="android.permission.WAKE_LOCK" policy="block"></pem>
+    </BLOCK_MALWARE_3>
+     <!-- Advanced WARNING For KOR models  -->
+    <WARNING_INSTALLER value="ALL" MIN="23" MAX="100" SA="9027" applyPolicy="ALL" reported="ALL" policy="warning" applyOption="AND">
+        <pem name="android.permission.WRITE_EXTERNAL_STORAGE" policy="warning"></pem>
+        <pem name="android.permission.READ_EXTERNAL_STORAGE" policy="warning"></pem>
+        <pem name="android.permission.REQUEST_INSTALL_PACKAGES" policy="warning"></pem>
+        <pem name="android.permission.MANAGE_EXTERNAL_STORAGE" policy="warning"></pem>
+        <pem name="android.permission.FOREGROUND_SERVICE" policy="warning"></pem>
+        <pem name="android.permission.INTERNET" policy="warning"></pem>
+    </WARNING_INSTALLER>
+    <WARNING_CALL value="ALL" MIN="23" MAX="100" SA="9029" applyPolicy="ALL" reported="ALL" policy="warning0" applyOption="AND">
+        <pem name="android.permission.ANSWER_PHONE_CALLS" policy="warning0"></pem>
+        <pem name="android.permission.CALL_PHONE" policy="warning0"></pem>
+        <pem name="android.permission.PROCESS_OUTGOING_CALLS" policy="warning0"></pem>
+        <pem name="android.permission.READ_CALL_LOG" policy="warning0"></pem>
+        <pem name="android.permission.READ_CONTACTS" policy="warning0"></pem>
+        <pem name="android.permission.FOREGROUND_SERVICE" policy="warning0"></pem>
+    </WARNING_CALL>
+    <WARNING_MALWARE_1 value="ALL" MIN="23" MAX="100" SA="9037" applyPolicy="ALL" reported="ALL" policy="warning0" applyOption="AND">
+        <pem name="android.permission.INTERNET" policy="warning0"></pem>
+        <pem name="android.permission.READ_CONTACTS" policy="warning0"></pem>
+        <pem name="android.permission.READ_PHONE_STATE" policy="warning0"></pem>
+        <pem name="android.permission.READ_PHONE_NUMBERS" policy="warning0"></pem>
+        <pem name="android.permission.READ_EXTERNAL_STORAGE" policy="warning0"></pem>
+        <pem name="android.permission.READ_MEDIA_IMAGES" policy="warning0"></pem>
+        <pem name="android.permission.READ_MEDIA_AUDIO" policy="warning0"></pem>
+        <pem name="android.permission.READ_MEDIA_VIDEO" policy="warning0"></pem>
+        <pem name="android.permission.READ_SMS" policy="warning0"></pem>
+        <pem name="android.permission.ACCESS_NETWORK_STATE" policy="warning0"></pem>
+    </WARNING_MALWARE_1>
+    <WARNING_READCONTACTS value="ALL" MIN="23" MAX="100" SA="9023" applyPolicy="ALL" reported="ALL" policy="warning0" applyOption="AND">
+        <pem name="android.permission.READ_CONTACTS" policy="warning0"></pem>
+        <pem name="android.permission.REQUEST_DELETE_PACKAGES" policy="warning0"></pem>
+        <pem name="android.permission.FOREGROUND_SERVICE" policy="warning0"></pem>
+    </WARNING_READCONTACTS>
+    <WARNING_MALWARE_2 value="ALL" MIN="23" MAX="100" SA="9024" applyPolicy="ALL" reported="ALL" policy="warning" applyOption="AND">
+        <pem name="android.permission.MODIFY_AUDIO_SETTINGS" policy="warning"></pem>
+        <pem name="android.permission.CHANGE_NETWORK_STATE" policy="warning"></pem>
+        <pem name="android.permission.FOREGROUND_SERVICE" policy="warning"></pem>
+        <pem name="android.permission.RECEIVE_BOOT_COMPLETED" policy="warning"></pem>
+        <pem name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" policy="warning"></pem>
+        <pem name="android.permission.BLUETOOTH" policy="warning"></pem>
+        <pem name="android.permission.GET_TASKS" policy="warning"></pem>
+        <pem name="android.permission.INTERNET" policy="warning"></pem>
+        <pem name="android.permission.REORDER_TASKS" policy="warning"></pem>
+        <pem name="android.permission.BLUETOOTH_ADMIN" policy="warning"></pem>
+        <pem name="android.permission.GET_PACKAGE_SIZE" policy="warning"></pem>
+        <pem name="android.permission.CHANGE_WIFI_STATE" policy="warning"></pem>
+        <pem name="android.permission.ACCESS_NETWORK_STATE" policy="warning"></pem>
+        <pem name="android.permission.DISABLE_KEYGUARD" policy="warning"></pem>
+        <pem name="android.permission.REQUEST_DELETE_PACKAGES" policy="warning"></pem>
+        <pem name="android.permission.ACCESS_WIFI_STATE" policy="warning"></pem>
+        <pem name="android.permission.QUERY_ALL_PACKAGES" policy="warning"></pem>
+        <pem name="android.permission.WAKE_LOCK" policy="warning"></pem>
+    </WARNING_MALWARE_2>
+    <!-- PEM LIST END -->
+</LIST>

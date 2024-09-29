@@ -1,0 +1,3 @@
+/system/preload/ClipStudio/ClipStudio.apk
+/system/preload/LumaFusion/LumaFusion.apk
+/system/preload/GoodNotes/GoodNotes.apk

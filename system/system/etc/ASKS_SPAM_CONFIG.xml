@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<VERSION value="20240624"/>
+<POLICY>
+  <config name="target_model">
+    <value name="ALL"/>
+  </config>
+</POLICY>
