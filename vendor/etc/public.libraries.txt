@@ -1,0 +1,8 @@
+libLocalTM_wrapper.camera.samsung.so
+libOpenCL.so
+libPersonal_capture.camera.samsung.so
+libadsprpc.so
+libcdsprpc.so
+libfastcvopt.so
+libqti-perfd-client.so
+libsdsprpc.so
